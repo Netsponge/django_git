@@ -22,3 +22,12 @@ git ---v or git -version
 ```shell
 mkdir football stats && football stats
 ```
+# Add .gitignore and start git
+
+Add the following .gitignore
+
+```shell
+.venv
+*.sqlite3
+__pycache__
+```
