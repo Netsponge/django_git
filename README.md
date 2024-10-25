@@ -81,3 +81,9 @@ py manage.py migrate
 ```
 git add . && git commit -m "django first files"
 ```
+
+## Run local server ##
+```
+py manage.py runserver
+```
+Now open your browser at localhost:8000
