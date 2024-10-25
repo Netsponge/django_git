@@ -60,3 +60,11 @@ Below, "core" means the core of our app, "." means build skeleton inside the cur
 django-admin startproject core .
 git add . && git commit -m "django first files"
 ```
+
+## Change settings.py
+
+Inside settings.py, add localhost to the list of allowed hosts, like this :
+
+```
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+```
