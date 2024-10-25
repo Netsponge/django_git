@@ -87,3 +87,15 @@ git add . && git commit -m "django first files"
 py manage.py runserver
 ```
 Now open your browser at localhost:8000
+
+
+## Create templates folder
+
+This folder add to your files structure your HTML'S for your views
+
+After the folder apparing, add new file to your TEMPLATES folder and create a new files named -> `Home.html` and `About.hmtl`.
+
+For create the structure of your HTML fastly, use this trick -> write - `!` - and press Enter, your HTML structures is ready.
+
+Add a text in the body and links `<p>About<a href="/">about</a></p>`  `<p>Go to Home<a href="/">Home</a>page.</p>` to see later the interaction of your link page.
+
