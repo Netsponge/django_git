@@ -45,3 +45,9 @@ git add . && git commit -m "first commit"
 py -m venv .venv
 source .venv/bin/activate
 ```
+
+## Install django 
+
+```shell
+py -m pip install django
+```
