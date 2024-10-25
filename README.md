@@ -51,3 +51,12 @@ source .venv/bin/activate
 ```shell
 py -m pip install django
 ```
+
+## Build django skeleton
+
+Below, "core" means the core of our app, "." means build skeleton inside the current folder :
+
+```shell
+django-admin startproject core .
+git add . && git commit -m "django first files"
+```
