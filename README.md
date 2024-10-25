@@ -16,3 +16,9 @@ py -V
 ```
 git ---v or git -version
 ```
+
+## Create a new folder
+
+```shell
+mkdir football stats && football stats
+```
