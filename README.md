@@ -68,3 +68,10 @@ Inside settings.py, add localhost to the list of allowed hosts, like this :
 ```
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 ```
+
+## Django comes with default tables (to manage users and authorizations notably), so let's inject them into our new db :
+
+```
+py manage.py makemigrations 
+py manage.py migrate 
+```
