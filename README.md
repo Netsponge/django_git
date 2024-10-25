@@ -75,3 +75,9 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 py manage.py makemigrations 
 py manage.py migrate 
 ```
+
+## git commit
+
+```
+git add . && git commit -m "django first files"
+```
