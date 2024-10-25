@@ -10,3 +10,9 @@ This a simple tutorial for django with two HTML files and one layout.
 py -V
 # 3.10.0
 ```
+
+## Install Git
+
+```
+git ---v or git -version
+```
